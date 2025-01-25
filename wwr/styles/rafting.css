@@ -1,25 +1,20 @@
-/* Preconnect to Google Fonts for faster font loading */
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
-/* Apply Fonts to Body */
 body {
   font-family: 'Roboto Serif', serif;
 }
 
-/* Apply Dokdo Font to Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Dokdo', cursive;
 }
 
-/* Additional Styling for Text */
 p {
   font-family: 'Roboto Serif', serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* Style for Links */
 a {
   font-family: 'Roboto Serif', serif;
   text-decoration: none;
