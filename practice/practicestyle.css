@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body {
+  font-family: 'Roboto Serif', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dokdo', cursive;
+}
+
+p {
+  font-family: 'Roboto Serif', serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  font-family: 'Roboto Serif', serif;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 100px (5, fr)
+    align-items: center;
+    border-botton: 1px solid #ccc;
+    max-with: 1000px;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
