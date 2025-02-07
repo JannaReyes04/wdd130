@@ -1,7 +1,41 @@
 :root {
   --paragraph-font: 'Roboto Serif', serif;
   --heading-font: 'Dokdo', cursive;
+  --primary-color: rgb(166, 162, 162);
+  --secondary-color: rgb(207, 210, 205);
+  --accent1-color: rgb(132, 117, 119);
+  --accent2-color: rgb(229, 230, 228);
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+}
+
+header .logo img {
+  width: 100px;
+  height: auto;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #007BFF;
+}
+
 body {
   font-family: var(--paragraph-font)
 }
@@ -21,4 +55,81 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff95;
+  padding: 1rem;
+}
+
+.hero img {
+  display: block;
+  width: 100%; 
+  height: auto;
+}
+
+.hero article {
+  background-color: #ffffff95;
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+  right: 2rem;
+}
+
+.hero article img{
+  float: right;
+  margin: 5rem;
+  width: 13rem;
+}
+
+.hero article p {
+  position: absolute;
+  top: 2rem;
+  left: 10%;
+  color: rgb(0, 0, 0);
+  font-size: 1.25rem;
+  max-width: 600px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.history {
+  padding: 20px;
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+}
+
+.history h2 {
+  color: var(--primary-color);
+}
+
+.adventure {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+.adventure h2 {
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: #3e3e3e;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 2rem;
+}
+.social {
+  grid-column: 3;
+  align-self: self-end;
+}
+.social img {
+  width: 3em;
 }
