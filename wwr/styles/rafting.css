@@ -128,6 +128,23 @@ a:hover {
   padding: 1em 0;
 }
 
+figure:nth-of-type(odd) {
+  background-color: var(--accent1-color);
+  color: var(--nav-link-color);
+  align-self: center;
+}
+
+figure:nth-of-type(even) {
+  background-color: var(--accent1-color);
+  color: var(--nav-link-color);
+  align-self: center;
+}
+
+figcaption {
+  text-align: center;
+  padding: 1em 0;
+}
+
 footer {
   background-color: #3e3e3e;
   color: #fff;
