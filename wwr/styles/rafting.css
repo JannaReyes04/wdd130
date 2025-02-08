@@ -45,10 +45,6 @@ body {
   font-family: var(--paragraph-font)
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font)
-}
-
 p { 
   font-size: 16px;
   line-height: 1.5;
@@ -123,8 +119,6 @@ a:hover {
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   justify-items: center;
-  padding: 20px;
-  background-color: var(--accent1-color);
 }
 
 .history h2,
