@@ -151,6 +151,11 @@ footer {
   align-items: center;
   background-color: #3e3e3e;
   padding: 2rem;
+  margin-top: 100px;
+}
+
+footer p {
+  color:#fff
 }
 .social {
   grid-column: 3;
