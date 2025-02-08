@@ -106,22 +106,32 @@ a:hover {
 }
 
 .history {
-  padding: 20px;
-  background-color: var(--accent2-color);
-  color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 2em;
+  margin: 50px 0;
 }
 
 .history h2 {
   color: var(--primary-color);
 }
 
+
 .adventure {
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  justify-items: center;
   padding: 20px;
   background-color: var(--accent1-color);
 }
 
+.history h2,
 .adventure h2 {
-  color: var(--primary-color);
+  grid-column: 1/-1;
+  justify-self: center;
+  padding: 1em 0;
 }
 
 footer {
