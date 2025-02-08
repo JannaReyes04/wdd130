@@ -41,9 +41,6 @@ header nav a:hover {
   color: #007BFF;
 }
 
-body {
-  font-family: var(--paragraph-font)
-}
 
 p { 
   font-size: 16px;
@@ -157,6 +154,7 @@ footer {
 footer p {
   color:#fff
 }
+
 .social {
   grid-column: 3;
   align-self: self-end;
