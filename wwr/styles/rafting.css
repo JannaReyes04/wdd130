@@ -136,7 +136,7 @@ figure:nth-of-type(even) {
 }
 
 figure img {
-  width: 95%;
+  width: 100%;
 }
 
 figcaption {
