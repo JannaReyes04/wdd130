@@ -192,3 +192,24 @@ footer p {
   flex-direction: column;
 }
 
+.address a {
+  color: #fff;
+}
+
+.gmap {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+}
+
+.hrule {
+  grid-column: 1/-1;
+}
+
+.employees {
+  grid-column: 1/-1;
+}
+
+ 
+
