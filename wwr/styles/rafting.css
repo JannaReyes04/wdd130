@@ -172,14 +172,19 @@ footer p {
   width: 3em;
 }
 
+/**************************************************
+*
+*            CSS for Contact Us 
+*
+**************************************************/
+
 .contactus h1 {
   grid-column: 1/-1;
   grid-row: 1;
   justify-self: center;
-
 }
 
-.contact form {
+.contactform {
   grid-column: 2/6;
   grid-row: 2/4;
 }
@@ -190,26 +195,47 @@ footer p {
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
-}
+  color: #fff
 
-.address a {
-  color: #fff;
-}
-
-.gmap {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
-  max-height: 450px;
 }
 
 .hrule {
   grid-column: 1/-1;
 }
 
+.gmap {
+  max-width: 600px;
+  width: 100%;
+  height: 500px;
+  
+}
+
 .employees {
   grid-column: 1/-1;
 }
 
- 
+.employee {
+  margin: 0;
+}
+
+.employees img {
+  width: 190px;
+  height: auto;
+}
+
+.employees figure {
+  max-width: 190px;
+  height: auto;
+  
+}
+
+.employee {
+  display:flex;
+  align-items: center;
+  gap: 20px;
+
+}
+
+
+
 
