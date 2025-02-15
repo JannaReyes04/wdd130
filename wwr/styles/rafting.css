@@ -143,12 +143,9 @@ figcaption {
   padding: 2em 0;
 }
 
+
 footer {
   color: #fff;
-
-}
-
-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
