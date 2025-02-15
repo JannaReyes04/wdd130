@@ -193,6 +193,12 @@ footer p {
 
 }
 
+.google-map {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
 .hrule {
   grid-column: 1/-1;
 }
@@ -213,7 +219,6 @@ footer p {
 .employees figure {
   max-width: 190px;
   height: auto;
-  
 }
 
 
