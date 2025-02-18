@@ -172,26 +172,14 @@ footer p {
 *            CSS for Contact Us 
 *
 **************************************************/
-
-.contactus h1 {
-  grid-column: 1/-1;
-  grid-row: 1;
-  justify-self: center;
+h1 {
+  text-align: center;
+  font-family: var(--heading-font);
 }
 
-.contactform {
-  grid-column: 2/6;
-  grid-row: 2/4;
-}
-
-.address {
-  grid-column: 7/12;
-  grid-row: 2/4;
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  color: #fff
-
+h2 {
+  text-align: center;
+  font-family: var(--heading-font);
 }
 
 .google-map {
@@ -200,34 +188,49 @@ footer p {
   border: 0;
 }
 
-.hrule {
-  grid-column: 1/-1;
+.grid-contactus {
+  display: grid;
+  grid-template-columns: 20% auto auto;
+  gap: 10px;
+  background-color: #f7f7f7;
+  padding: 10px;
 }
 
-.employees {
-  grid-column: 1/-1;
+.grid-contactus > div {
+  color:#000;
+  padding: 10px;
+  text-align: center;
 }
 
-.employee {
-  margin: 0;
+.form {
+  grid-column: 1 / span 1;
+  border-style: dotted;
 }
 
-.employees img {
-  width: 190px;
-  height: auto;
+.address {
+  grid-column: 2 / span 2;
 }
 
-.employees figure {
-  max-width: 190px;
-  height: auto;
+.grid-employees {
+  display: grid;
+  grid-template-columns: 10% auto 15% auto 15% auto 10%;
+  background-color: #f7f7f7;
+  padding: 10px;
 }
 
-figcaption {
-  color: #fff;
+.grid-employees > div {
+  color:#000;
+  text-align: center;
 }
 
+.image1 {
+  grid-column: 2;
+}
 
+.image2 {
+  grid-column: 4;
+}
 
-
-
-
+.image3 {
+  grid-column: 6;
+}

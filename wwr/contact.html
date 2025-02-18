@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Janna Reyes">
-    <meta name="description" content="Website about Wild Watter Rafting, history and images">
+    <meta name="contact" content="webpage about the contact information and address of the facility">
     <title>Contact Us | Pheebes & Elly Water Rafting</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,53 +29,64 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main class="grid contactus"> 
-            <h1>Contact Us</h1>
-            <form action="#" class="contactform">
-                <fieldset>
-                    <label for="name"></label>
-                    <input type="text" id="name" name="name" required placeholder="Janna Reyes"> 
-     
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="emailaddress" required>
-                </fieldset>
-                <fieldset class="radio-inputs">
-                    <input type="radio" id="general" name="drone" value="general" checked />
-                    <label for="general">General Question</label>
-
-                    <input type="radio" id="reservation" name="drone" value="reservation" checked />
-                    <label for="reservation">Reservation Question</label>
-
-                    <input type="radio" id="website" name="web" value="website" checked />
-                    <label for="website">Website Suggestion</label>   
-                </fieldset>
-
-                <fieldset>
-                    <label for="message">Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                </fieldset>
-                <div class="signup">
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                    <label for="newsletter">Please subscribe me to the monthly news letter</label>
-                </div>
-                <button type="Submit-button">Send Messages</button>
-            </form>
-            
-            <section class="address">
-                <h2>Our Contact info</h2>
-                <address>Blk 8 Lot 28 Camella Terra Alta Galas St., <br> Rexburg, Bignay Valenzuela City Philippines ID 1440</address>
-                <a href="Cell Phone Number: (+63)9129951703">(63)9129951703</a>
-                <a href="mailto:janna.edu.edu@gmail.com">janna.edu@gmail.com</a> 
-                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.3025119820613!2d120.9963888758761!3d14.751979173351017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b1ecce7b2ef3%3A0xb70f0bb9b76b9112!2sCamella%20Terra%20Alta!5e0!3m2!1sen!2sph!4v1739647868845!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-            <hr class="hrule">
-            <section class="grid employees">
-                <h2>Our employees</h2>
-                <figure><img src="images/employee1.jpg" alt="CEO"><figcaption> Janna Reyes - CEO </figcaption></figure>
-                <figure><img src="images/emplyee2.jpg" alt="COO/River Guide"><figcaption> Nephi Reyes - COO/ River guide </figcaption></figure>
-                <figure><img src="images/employee3.jpg" alt="Tour Guida"><figcaption> Phoebe Reyes - Tour Guide </figcaption></figure>
-            </section>
+    <main> 
+        <h1>Contact information</h1>    
+        <div class="grid-contactus">
+            <div class="form">
+                <form action="#" >
+                        <h1>Contact Us</h1>
+                        <hr>
+                        <label for="name">Name</label>
+                        <br>
+                        <input type="text" id="name" name="name" required placeholder="Full Name"> 
+                        <br>     
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="emailaddress" required placeholder="test@test.com">
+                        <br>
+                        <h2>Reason For Contacting Us</h2>
+                        <input type="radio" id="general" name="drone" value="general"  />
+                        <label for="general">General Question</label>
+                        <br>
+                        <input type="radio" id="reservation" name="drone" value="reservation"  />
+                        <label for="reservation">Reservation Question</label>
+                        <br>
+                        <input type="radio" id="website" name="drone" value="website"  />
+                        <label for="website">Website Suggestion</label>
+                        <br>
+                        <br>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly news letter</label>
+                        <br>
+                        <br>
+                        <button type="Submit-button">Send Messages</button>
+                </form>
+            </div>
+            <div class="address">
+                <section >
+                    <h2>Our Contact info</h2>
+                    <address>Blk 8 Lot 28 Camella Terra Alta Galas St., <br> Rexburg, Bignay Valenzuela City Philippines ID 1440</address>
+                    <br>
+                    <a href="Cell Phone Number: (+63)9129951703">(63)9129951703</a>
+                    <br>
+                    <a href="mailto:janna.edu.edu@gmail.com">janna.edu@gmail.com</a>
+                    <br>
+                    <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.3025119820613!2d120.9963888758761!3d14.751979173351017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b1ecce7b2ef3%3A0xb70f0bb9b76b9112!2sCamella%20Terra%20Alta!5e0!3m2!1sen!2sph!4v1739647868845!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                </section>
+            </div>
+        </div>
+        <h2>Our employees</h2>
+        <div class="grid-employees">
+                <div class="image1"><figure><img src="images/employee1.jpg" alt="CEO"><figcaption> Janna Reyes - CEO </figcaption></figure></div>
+                <div class="image2"><figure><img src="images/emplyee2.jpg" alt="COO/River Guide"><figcaption> Nephi Reyes - COO/ River guide </figcaption></figure></div>
+                <div class="image3"><figure><img src="images/employee3.jpg" alt="Tour Guida"><figcaption> Phoebe Reyes - Tour Guide </figcaption></figure></div>
+        </div>
     </main>
 
     <footer>
