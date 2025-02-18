@@ -272,7 +272,7 @@ h2 {
 .newsletter {
   text-align: center;
   padding: 2rem;
-  background: var(--primary-color);
+  background:#3f3e3e;
   color: white;
 }
 
@@ -323,7 +323,7 @@ h2 {
 
 .call-to-action p {
   margin-bottom: 1rem;
-  color: #555;
+  color: #434242;
 }
 
 .call-to-action .cta-button {
