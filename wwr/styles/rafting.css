@@ -14,7 +14,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   padding: 10px 20px;
-  background-color: #f7f7f7;
+  background-color: var(--secondary-color);
 }
 
 header .logo img {
@@ -33,12 +33,12 @@ nav a {
   padding: 0.5rem;
   font-family: var(--heading-font);
   text-decoration: none;
-  color: #333;
+  color: var(--accent1-color);
   font-weight: bold;
 }
 
 header nav a:hover {
-  color: #007BFF;
+  color: var(--accent1-color);
 }
 
 p { 
@@ -141,12 +141,12 @@ figure img {
 figcaption {
   text-align: center;
   padding: 2em 0;
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 
 
 footer {
-  color: #fff;
+  color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,7 +156,7 @@ footer {
 }
 
 footer p {
-  color:#fff
+  color:var(--secondary-color)
 }
 
 .social {
@@ -192,7 +192,7 @@ h2 {
   display: grid;
   grid-template-columns: 20% auto auto;
   gap: 10px;
-  background-color: #f7f7f7;
+  background-color: var(--accent2-color);
   padding: 10px;
 }
 
@@ -214,7 +214,7 @@ h2 {
 .grid-employees {
   display: grid;
   grid-template-columns: 10% auto 15% auto 15% auto 10%;
-  background-color: #f7f7f7;
+  background-color: var(--accent2-color);
   padding: 10px;
 }
 
